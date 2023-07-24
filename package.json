@@ -49,10 +49,12 @@
   "dependencies": {
     "buffer": "^6.0.3",
     "es6-promisify": "^7.0.0",
+    "events": "^3.3.0",
     "minimatch": "^3.0.4",
     "node-polyfill-webpack-plugin": "^2.0.1",
     "path": "^0.12.7",
     "schema-utils": "^3.1.1",
+    "util": "^0.12.5",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
   },
