@@ -1,3 +1,5 @@
+const Buffer = require("buffer");
+
 let fs = null;
 let Filer = null;
 
