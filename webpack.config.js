@@ -8,7 +8,8 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "./dist"),
     filename: "[name].js",
-    library: "Filer"
+    library: "Filer",
+    libraryTarget: "umd"
   },
   plugins: [
 		new NodePolyfillPlugin()
